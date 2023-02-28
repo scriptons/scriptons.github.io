@@ -1,0 +1,190 @@
+/* Fonts */
+body {
+    font-family: 'Raleway';
+    font-style: normal;
+    margin: 0 50px 0 50px;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+input,
+::placeholder,
+.large,
+.filters {
+    font-weight: 700;
+}
+
+.normal,
+.small {
+    font-weight: 400;
+}
+
+h1,
+h2 {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+h4,
+input,
+::placeholder,
+.large {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.normal,
+.menu {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.small {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+/* Filters */
+.filters {
+    font-size: 17px;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+/* General */
+li {
+    list-style-type: none;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    height: 126px;
+}
+
+#logo {
+    width: 61px;
+    height: 29px;
+    object-fit: contain;
+    margin-top: 48px;
+}
+
+nav {
+    margin-right: 27px;
+}
+
+.menu {
+    width: 381px;
+    height: 19px;
+    text-align: end;
+    margin-top: 48px;
+    margin-bottom: 59px;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 67px;
+    padding-top: 46px;
+}
+
+.menu li a:hover {
+    color: #0065FC;
+    font-weight: 500;
+    border-top: 2px solid #0065FC;
+}
+
+/* main */
+main {
+    margin-left: 5px;
+    height: 300px;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+main>p {
+    margin: 0;
+}
+
+form {
+    margin-top: 20px;
+    height: 49px;
+}
+
+form>ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#location {
+    padding: 0;
+    margin: 0;
+    height: 18px;
+    width: 14px;
+    padding: 16px 18px 15px 18px;
+}
+
+form>ul>li {
+    display: flex;
+}
+
+label {
+    box-sizing: border-box;
+    height: 49px;
+    width: 50px;
+    background-color: #D9D9D9;
+    border: none;
+    border-left: 1px solid #D9D9D9;
+    border-radius: 15px 0px 0px 15px;
+
+}
+
+input {
+    box-sizing: border-box;
+    padding: 13px 0 13px 17px;
+    height: 49px;
+    width: 265px;
+    border: none;
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+input::placeholder {
+    color: black;
+    opacity: 1;
+}
+
+input:focus {
+    outline: none;
+}
+
+button.large {
+    height: 100%;
+    width: 132px;
+    padding: 0;
+    background-color: #0065FC;
+    color: #FFFFFF;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+}
